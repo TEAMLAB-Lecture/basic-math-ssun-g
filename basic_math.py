@@ -70,7 +70,7 @@ def get_mean(number_list):
     """
     avg = 0
     for i in range(number_list):
-        avg += i
+        avg += number_list[i]
     
     mean = avg/len(number_list)
 
